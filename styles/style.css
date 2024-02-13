@@ -1,0 +1,38 @@
+:root {
+	--color-navbar: #ff6900;
+	--color-maincolor: #ffffff;
+	--color-contrast: #1a1a1a;
+	--color-price: #ff0000;
+	--color-tagsostenibilità: #008000;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-maincolor);
+    font-weight: 600;
+}
+
+/* nav */
+.fixednav {
+    position: fixed;
+    width: 100%;
+    background-color: var(--color-navbar);
+}
+nav {
+    background-color: var(--color-navbar);
+    color: var(--color-maincolor);
+    padding: 10px 5px;
+}
+nav div div {
+    gap: 5px;
+}
+#logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#logo img {
+    width: 100%;
+}
