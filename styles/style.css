@@ -10,6 +10,7 @@ a {
     text-decoration: none;
     color: var(--color-maincolor);
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* nav */
@@ -98,3 +99,11 @@ h3 {
 .full-price {
     text-decoration-line: line-through ;
 }
+footer {
+    background-color: var(--color-contrast);
+    margin-top: 40px;
+    padding: 30px 0px;
+    color: var(--color-maincolor);
+    font-weight: 600;
+}
+
